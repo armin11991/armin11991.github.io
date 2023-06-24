@@ -160,6 +160,16 @@
   });
 
   /**
+   * Hero type effect
+   */
+  let typed = new Typed(".auto-type", {
+    strings: ["Architect", "Project manager", "Developer"],
+    typeSpeed: 100,
+    backSpeed: 50,
+    loop: true
+  })
+
+  /**
    * Skills animation
    */
   let skilsContent = select('.skills-content');
