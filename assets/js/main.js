@@ -121,16 +121,6 @@
   })
 
   /**
-   * Mobile nav dropdowns activate
-   */
-  on('click', '.navbar .dropdown > a', function(e) {
-    if (select('#navbar').classList.contains('navbar-mobile')) {
-      e.preventDefault()
-      this.nextElementSibling.classList.toggle('dropdown-active')
-    }
-  }, true)
-
-  /**
    * Scrool with ofset on links with a class name .scrollto
    */
   on('click', '.scrollto', function(e) {
@@ -163,7 +153,7 @@
    * Hero type effect
    */
   let typed = new Typed(".auto-type", {
-    strings: ["Architect", "Project manager", "Developer"],
+    strings: ["Armando", "Architect", "Project manager", "Developer"],
     typeSpeed: 100,
     backSpeed: 50,
     loop: true
