@@ -1095,3 +1095,42 @@ section {
 #footer .credits {
   font-size: 13px;
 }
+
+/*
+/*
+/* media only screen adjusments */
+
+@media only screen and (max-width: 991px) {
+  #img-block {
+    margin-bottom: 3rem;
+  }
+  .about .image {
+    background-size: contain;
+    min-height: 500px;
+  }
+  .info-block {
+    margin-left: 11.5rem;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .info-block {
+    margin-left: 6rem;
+  }
+}
+
+@media only screen and (max-width: 577px) {
+  .info-block {
+    margin-left: 5.9rem;
+  }
+}
+
+@media only screen and (max-width: 549px) {
+  .info-block {
+    margin-left: 0;
+  }
+}
+
+
+
+
