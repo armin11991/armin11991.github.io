@@ -252,6 +252,7 @@ h6 {
   font-family: "Poppins", helvetica;
   color: #fff;
   text-transform: uppercase;
+  text-align: center;
 }
 
 #hero h2 {
@@ -1127,7 +1128,7 @@ section {
 
 @media only screen and (max-width: 549px) {
   .info-block {
-    margin-left: 0;
+    margin-left: 4rem;
   }
 }
 
