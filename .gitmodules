@@ -4,3 +4,12 @@
 [submodule "sunset-theme-website"]
 	path = sunset-theme-website
 	url = https://github.com/armin11991/sunset-theme-website
+[submodule "signUpForm-odin"]
+	path = signUpForm-odin
+	url = https://github.com/armin11991/signUpForm-odin
+[submodule "personal-portfolio-webpage"]
+	path = personal-portfolio-webpage
+	url = https://github.com/armin11991/personal-portfolio-webpage
+[submodule "admin-dashboard"]
+	path = admin-dashboard
+	url = https://github.com/armin11991/admin-dashboard
