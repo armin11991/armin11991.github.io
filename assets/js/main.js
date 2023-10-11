@@ -153,7 +153,7 @@
    * Hero type effect
    */
   let typed = new Typed(".auto-type", {
-    strings: ["Armando", "Architect", "Developer"],
+    strings: ["I'm Armando", "Architect", "Interior Designer", "Developer"],
     typeSpeed: 100,
     backSpeed: 50,
     loop: true
